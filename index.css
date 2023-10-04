@@ -1,0 +1,44 @@
+#game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.grid-cell {
+  font-size: 40px;
+  background-color: black;
+  display: flex;
+  color: wheat;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 100px;
+}
+
+.status {
+  text-align: center;
+  margin-top: 20px;
+  color: lightblue;
+}
+
+.game-over {
+  text-align: center;
+  margin-top: 20px;
+  color: lightblue;
+}
+
+#restart-button {
+  background-color: chocolate;
+  color: black;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#status-message {
+  font-size: 20px;
+  color: black;
+  font-weight: bolder;
+}
